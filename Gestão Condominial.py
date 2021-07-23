@@ -1,4 +1,4 @@
-def main():
+def menu():
     
     print("="*20, "Gestão Condominial", "="*20)
 
@@ -82,7 +82,7 @@ def main():
             
         qres = input("Deseja continuar? Sim / Não: ")[0]
         if qres in "Ss":
-            main()
+            menu()
         else:
             break
-main()
+menu()
