@@ -1,22 +1,39 @@
-class Pessoa:
-    def __init__(self, nome, cpf, nasc, telefone):
-        self.__nome = nome
-        self.__cpf = cpf
-        self.__nasc = nasc
-        self.__telefone = telefone
-        
+class Pessoa: #Classe Mãe / Possue Relação de Herança Com as Classes Morador e a Classe Funcionario.
+    def __init__(self, nome, cpf, telefone, email):
+        self._nome = nome
+        self._cpf = cpf
+        self._telefone = telefone
+        self._email = email
+    
+    #Getter e Setter
     @property
     def nome(self):
-        return self.__nome
+        return (f' NOME: {self._nome}\n')
+    
+    @nome.setter
+    def nome(self,novoNome):
+        return self._nome
     
     @property
     def cpf(self):
-        return self.__cpf
+        return (f'CPF: {self._cpf}\n')
     
-    @property
-    def nasc(self):
-        return self.__nasc
+    @cpf.setter
+    def cpf(self,novoCpf):
+        return self._cpf
     
     @property
     def telefone(self):
-        return self.__telefone 
+        return (f'TELEFONE: {self._telefone}\n')
+    
+    @telefone.setter
+    def telefone(self,novoTelefone):
+        return self._telefone
+    
+    @property
+    def email(self):
+        return (f'E-MAIL: {self._email}\n')
+    
+    @email.setter
+    def email(self,novoEmail):
+        return self._email
