@@ -1,0 +1,67 @@
+from Morador import Morador
+from Veiculo import Veiculo
+from Servente import Servente
+from Ronda import Ronda
+from Porteiro import Porteiro
+
+
+# V1 = Veiculo('Carro','Toyota','Prata', 'BRA2A18')
+# V3 = Veiculo('Moto','Suzuki','Preta', 'BRAOS17')
+
+# M1 = Morador('Rafael', '000.000.000-00', '71-9-0000-0000','rafael@gmail', 1, 301, V1)
+# print(M1.nome,M1.cpf,M1.telefone,M1.email,M1.torre,M1.apartamento,M1.veiculo.tipo, M1.veiculo.marca,M1.veiculo.cor, M1.veiculo.placa)   
+
+# print("-="*15)
+
+# M2 = Morador('Gabriel', '111.111.111-11', '71-9-1111-1111','gabriel@gmail', 2, 202)
+# print(M2.nome,M2.cpf,M2.telefone,M2.email,M2.torre,M2.apartamento) 
+
+# print("-="*15)
+
+# M3 = Morador('Flavia', '222.222.222-22', '71-9-2222-2222','flavial@gmail', 3, 101, V3)
+# print(M3.nome,M3.cpf,M3.telefone,M3.email,M3.torre,M3.apartamento,M3.veiculo.tipo, M3.veiculo.marca,M3.veiculo.cor, M3.veiculo.placa)
+
+# F1 = Servente('Guilherme','333.333.333-33','71-9-3333-3333','guilherme@gmail.com','servente','001', 1200, 1)
+# print(F1.nome,F1.funcao,F1.salario,F1.tempEmpresa )
+# F1.salario = 1500
+# F1.salario = 1320
+# F1.salario = 1000
+
+# print("-="*15)
+
+# F1.tempEmpresa = 2
+# print(F1.nome,F1.funcao,F1.salario,F1.tempEmpresa )
+# F1.salario = 1500
+# F1.salario = 1320
+# F1.salario = 1200
+# F1.salario = 1452
+
+# print("-="*15)
+
+# F2 = Ronda('Flavia','444.444.444-44','71-9-4444-4444','flavia@gmail.com','Ronda','002', 1500, 2)
+# print(F2.nome,F2.funcao,F2.salario,F2.tempEmpresa )
+# F2.salario = 2000
+# F2.salario = 1725
+# F2.salario = 1500
+
+# print("-="*15)
+
+# F2.tempEmpresa = 1
+# print(F2.nome,F2.funcao,F2.salario,F2.tempEmpresa )
+# F2.salario = 2200
+# F2.salario = 2000
+
+# print("-="*15)
+
+# F3 = Porteiro('thiago','555.555.555-55','71-9-5555-5555','thiago@gmail.com','Porteiro','003', 1300, 5)
+# print(F3.nome,F3.funcao,F3.salario,F3.tempEmpresa )
+# F3.salario = 1600
+# F3.salario = 1495
+# F3.salario = 1300
+
+# print("-="*15)
+
+# F3.tempEmpresa = 3
+# print(F3.nome,F3.funcao,F3.salario,F3.tempEmpresa )
+# F3.salario = 2000
+# F3.salario = 1700
